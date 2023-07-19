@@ -1,0 +1,77 @@
+.App {
+  text-align: left;
+  width: 500px;
+  margin :auto;
+  color: rgb(11, 2, 2);
+}
+body{
+  background-color: hsl(198, 78%, 55%);
+}
+#cont1>h1{
+  margin: 15px;
+  /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: white;
+}
+.grid{
+  display: grid;
+  width: 600px;
+  background-color: black;
+  color: aliceblue;
+  height: 90px;
+  height: auto;
+  width: 500px;
+  margin: 15px;
+  grid-template-columns: 50px auto ;
+  grid-template-rows: auto auto ;
+  font-size: 7px;
+  font-weight: bolder;
+  border-radius: 20px ;
+  box-shadow: 0px 7px 5px -2px rgb(0, 0, 0);
+}
+.indx{
+  grid-row: 1 / 3;
+  border-radius: 20px 0px 0px 20px;
+  color: white;
+  background-color: rgb(62, 158, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.name{
+  border-radius: 0px 20px 0px 0px;
+  background-color:lightblue ;
+}
+.loc{
+  border-radius: 0px 0px 20px 0px;
+
+  background-color:white;
+}
+.name,.loc{
+  color: black;
+  padding-left: 12px;
+}
+p{
+  margin:auto;
+  width: 260px;
+  color: white;
+  font-weight: 500;
+}
+button{
+  font-size: 14px;
+  padding: 10px;
+  width: 160px;
+  height: 37px;
+  border-radius: 60px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(235, 153, 120);
+  float: right;
+}
+button:hover{
+  color: black;
+  background-color: rgb(62, 158, 82);
+  box-shadow: 0px 0px 15px 10px rgb(62, 158, 82);
+}
